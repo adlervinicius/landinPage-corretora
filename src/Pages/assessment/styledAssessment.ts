@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+// styles
 export const Container = styled.div`
     min-height: 100vh;
     background-color: #1C1C1C;
@@ -27,8 +28,6 @@ export const AreaServices = styled.div`
     margin: 100px;
 `;
 
-export const TextAreaDiv = styled.text``;
-
 export const TextArea = styled.div`
     color: #FFFF;
     font-size: 50px;
@@ -44,3 +43,5 @@ export const ContainerAreaDivs = styled.div`
     flex-wrap: wrap;
     margin-bottom: 100px;
 `;
+
+export const TextAreaDiv = styled.text``;

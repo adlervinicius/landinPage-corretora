@@ -1,3 +1,4 @@
+// styles
 import {
     Container,
     DivAreaText,
@@ -5,13 +6,21 @@ import {
     SubText,
     DivAreaTotal,
     DivAreaImage,
-    Image
+    Image,
+    ImageWhats
 } from './styledHome';
 
+// pages
+import { Header } from '../../shared/components/Header';
+import { Product } from '../Product';
+import { Assessment } from '../assessment';
+import { Footer } from '../Footer';
+
+// images
 import logoCorretora from '../../images/logoCorretora.jpg';
+import logoWhats from '../../images/logoWhats.webp';
 
-import { Header } from '../Header';
-
+// main
 export const Home = () => {
     return (
         <Container>
@@ -36,6 +45,10 @@ export const Home = () => {
                     <Image src={logoCorretora} />
                 </DivAreaImage>
             </DivAreaTotal>
+            <Product />
+            <Assessment />
+            <Footer />
+            <ImageWhats src={logoWhats} />
         </Container>
     )
 }

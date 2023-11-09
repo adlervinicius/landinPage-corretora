@@ -1,21 +1,10 @@
-import { 
-  Container,
-} from './App.styles';
-
-import { Product } from './Pages/Product';
-import { Home } from './Pages/Home/index';
-import { Assessment } from './Pages/assessment';
-import { Footer } from './Pages/Footer';
+import { AppRoutes } from '../src/routers';
 
 // main
-export const App =  () => {
-
+export const App = () => {
   return (
-    <Container>
-      <Home />
-      <Product />
-      <Assessment />
-      <Footer />
-    </Container>
+    <>
+        <AppRoutes />
+    </>
   );
-}
+};

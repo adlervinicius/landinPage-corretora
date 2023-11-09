@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+// styles
 export const Container = styled.div`
     min-height: 50vh;
     background-color: #4F4F4F;
@@ -81,8 +82,6 @@ export const DivForm = styled.div`
     padding: 10px;
 `;
 
-export const LabelForm = styled.label``;
-
 export const InputForm = styled.input`
     width: 80%;
     margin: 0 auto;
@@ -103,20 +102,22 @@ export const TextAreaForm = styled.textarea`
 `;
 
 export const ButtonSend = styled.div`
-    background-color: #1347A2;
+    background: #0066A2;
     width: 200px;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     cursor: pointer;
-    border: 1px solid black;
+    border: none;
+    transition: all .10s;
+    border: 0px solid transparent;
     &:hover {
         cursor: pointer;
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
+        -webkit-transform: scale(0.5);
+        transform: scale(1.05);
     }
 `;
 

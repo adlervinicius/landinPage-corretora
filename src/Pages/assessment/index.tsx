@@ -1,3 +1,4 @@
+// styles
 import {
     Container,
     AreaServices,
@@ -11,8 +12,10 @@ import {
 //images
 import stars from '../../images/stars.webp';
 
+//main
 export const Assessment = () => {
 
+    // component card
     const HandleServices = () => {
         return (
             <>

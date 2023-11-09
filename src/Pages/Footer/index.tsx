@@ -1,3 +1,4 @@
+// styles
 import {
     Container,
     ContainerAreaLinks,
@@ -7,7 +8,6 @@ import {
     TextArea,
     DivAreaRedes,
     ImageLink,
-    TextAreaFooter,
     FormArea,
     DivForm,
     InputForm,
@@ -23,6 +23,7 @@ import instagram from '../../images/instagram.png';
 import linkedin from '../../images/linkedin.png';
 import twitter from '../../images/twitter.png';
 
+// main
 export const Footer = () => {
     return (
         <Container>

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+// styles
 export const Container = styled.div`
     min-height: 100vh;
     background-color: #1C1C1C;
@@ -8,6 +9,7 @@ export const Container = styled.div`
     display: grid;
     justify-content: center;
     aling-items: center;
+    margin-top: 100px;
 `;
 
 export const TextArea = styled.text`
@@ -15,7 +17,6 @@ export const TextArea = styled.text`
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    margin-top: 20px;
 `;
 
 export const ContainerAreaDivs = styled.div`
@@ -26,13 +27,10 @@ export const ContainerAreaDivs = styled.div`
     align-content: center;
 `;
 
-export const AreaServices = styled.div``;
-
-export const ImageItem = styled.div`
+export const AreaServices = styled.div`
     width: 320px;
-    height: 450px;
     background-color: #FFFF;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     margin: 10px;
@@ -44,4 +42,21 @@ export const ImageItem = styled.div`
         -webkit-transform: scale(0.5);
         transform: scale(1.05);
     }
+`;
+
+export const ImageItem = styled.div`
+    width: 320px;
+    height: 410px;
+    background-color: #ffff;
+`;
+
+export const ButtomNavigate = styled.button`
+    background: #0066A2;
+    color: white;
+    border-style: none;
+    border-color: #0066A2;
+    height: 50px;
+    font: bold15px arial,sans-serif;
+    cursor: pointer;
+    text-shadow: none;
 `;
