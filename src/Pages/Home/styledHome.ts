@@ -5,7 +5,7 @@ export const Container = styled.div`
     min-height: 100vh;
     background-color: #1C1C1C;
     color: #FFFF;
-    font-family: system-ui;
+    font-family: Helvetica, sans-serif;
 `;
 
 export const DivAreaText = styled.div`

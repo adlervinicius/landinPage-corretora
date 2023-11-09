@@ -3,19 +3,19 @@ import styled from 'styled-components';
 // styles
 export const Container = styled.div`
     min-height: 50vh;
-    background-color: #4F4F4F;
+    background: linear-gradient(to bottom, #1C1C1C  0%, #1347A2 34.48%,  #1347A2 100%);
     color: #FFFF;
-    font-family: system-ui;
+    font-family: Helvetica, sans-serif;
     display: flex;
     padding: 10px;
 `;
 
 export const ContainerAreaLinks = styled.div`
     width: 50%;
+    display: grid;
 `;
 
 export const ContainerAreaContact = styled.div`
-    width: 50%;
     display: grid;
     text-align: center;
     justify-content: center;
@@ -23,7 +23,7 @@ export const ContainerAreaContact = styled.div`
 `;
 
 export const Image = styled.img`
-    width: 150px;
+    width: 100px;
     transition: all 0.3s;
     cursor: pointer;
     &:hover {
@@ -40,7 +40,7 @@ export const DivImageText = styled.div`
 `;
 
 export const TextArea = styled.text`
-    font-size: 25px;
+    font-size: 20px;
     width: 60%;
 `;
 
@@ -52,7 +52,7 @@ export const DivAreaRedes = styled.div`
     align-content: center;
 `;
 
-export const ImageLink = styled.img`
+export const ImageLink = styled.div`
     width: 50px;
     padding: 20px;
     transition: all 0.3s;
@@ -88,6 +88,7 @@ export const InputForm = styled.input`
     padding: 10px;
     border: none;
     margin-bottom: 10px;
+    font-family: system-ui;
     border-radius: 10px;
 `;
 
@@ -99,6 +100,8 @@ export const TextAreaForm = styled.textarea`
     border-radius: 10px;
     resize: none;
     height: 100px;
+    font-family: system-ui;
+    outline: 1px solid white;
 `;
 
 export const ButtonSend = styled.div`
@@ -113,7 +116,7 @@ export const ButtonSend = styled.div`
     cursor: pointer;
     border: none;
     transition: all .10s;
-    border: 0px solid transparent;
+    border: 1px solid #ffff;
     &:hover {
         cursor: pointer;
         -webkit-transform: scale(0.5);

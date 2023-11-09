@@ -16,12 +16,15 @@ import {
     AreaButtom
 } from './styledFooter';
 
+import { 
+    FaFacebook,
+    FaInstagram,
+    FaLinkedin,
+    FaTwitter
+ } from 'react-icons/fa';
+
 //images
 import logoWhats from '../../images/logoWhats.webp';
-import facebook from '../../images/facebook.png';
-import instagram from '../../images/instagram.png';
-import linkedin from '../../images/linkedin.png';
-import twitter from '../../images/twitter.png';
 
 // main
 export const Footer = () => {
@@ -33,10 +36,10 @@ export const Footer = () => {
                     <TextArea>chame um consultor de seguro para tirar suas duvidas é rápido e fácil!</TextArea>
                 </DivImageText>
                 <DivAreaRedes>
-                    <ImageLink src={facebook} />
-                    <ImageLink src={instagram} />
-                    <ImageLink src={linkedin} />
-                    <ImageLink src={twitter} />
+                    <ImageLink><FaFacebook size={35} /></ImageLink>
+                    <ImageLink><FaInstagram size={35} /></ImageLink>
+                    <ImageLink><FaLinkedin size={35} /></ImageLink>
+                    <ImageLink><FaTwitter size={35} /></ImageLink>
                 </DivAreaRedes>
             </ContainerAreaLinks>
             <ContainerAreaContact>

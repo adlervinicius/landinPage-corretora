@@ -10,6 +10,7 @@
     "@types/node": "^16.18.61",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
+    "@types/react-icons": "^3.0.0",
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.30",
     "react": "^18.2.0",
